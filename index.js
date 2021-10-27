@@ -7,9 +7,7 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 
 const config = require('./config');
-const { userAuth } = require('./controllers/userController');
 
-const admin = require('./firebase').firebaseAdmin;
 const challengeRoutes = require('./routes/challenge-routes');
 const portfolioRoutes = require('./routes/portfolio-routes');
 const stockLookupRoutes = require('./routes/stockLookup-routes');
